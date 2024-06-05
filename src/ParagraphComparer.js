@@ -65,8 +65,8 @@ const ParagraphComparer = () => {
 
   return (
     <div>
-      <FileUploader onFileUpload={handleFileUpload1} />
-      <FileUploader onFileUpload={handleFileUpload2} />
+      <FileUploader title={"PDF 1"} onFileUpload={handleFileUpload1} />
+      <FileUploader title={"PDF 2"} onFileUpload={handleFileUpload2} />
       <div style={{ display: "flex" }}>
         <TextDisplay text={text1} />
         <TextDisplay text={text2} />
